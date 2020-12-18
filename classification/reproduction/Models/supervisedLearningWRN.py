@@ -11,7 +11,7 @@ os.chdir('/content/drive/MyDrive/synbols-benchmarks/classification')
 !pip install -r requirements.txt
 
 
-! python3 trainval.py --savedir_base '/content/drive/MyDrive/MLP' --exp_group_list baselines
+! python3 trainval.py --savedir_base '/content/drive/MyDrive/WRN' --exp_group_list baselines
 
 
 files = [         
