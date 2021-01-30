@@ -16,6 +16,15 @@ infomax = {
     "dp_prob": 0.3,
     "feature_extractor": "deepinfomax"
 }
+
+effnet = {
+    "name": "infomax",
+    "mlp_width": 4,
+    "mlp_depth": 2,
+    "channels_width": 4,
+    "dp_prob": 0.3,
+    "feature_extractor": "deepinfomax"
+}
 augmentation = False
 default = {
     "backend": "synbols_hdf5",
