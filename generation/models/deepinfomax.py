@@ -38,6 +38,10 @@ class MLP(torch.nn.Module):
                 x = bn(x)
                 x = F.relu(x, True)
         return x
+    
+    def GridSearch(MLPmodel, parameter_space) :
+        x = GridSearchCV(MLPmodel, parameter_space
+        return x
 
 class DeepInfoMax(torch.nn.Module):
     """Trains a DeepInfoMax on multiple GPUs"""
