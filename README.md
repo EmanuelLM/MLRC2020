@@ -1,11 +1,12 @@
 Cloned repository for the 2020 Machine Learning Reproducibility Challenge. Please visit https://github.com/ElementAI/synbols to check authors' code 
 
 Additional credits : 
-**EfficientNet implementation
 
-*Author: lukemelas (github username)
+**EfficientNet implementation**
 
-*Github repo: https://github.com/lukemelas/EfficientNet-PyTorch
+*Author: lukemelas (github username)*
+
+*Github repo: https://github.com/lukemelas/EfficientNet-PyTorch*
 
 ![#Synbols](https://github.com/ElementAI/synbols/raw/master/title.png)
 # Probing Learning Algorithms with Synthetic Datasets
