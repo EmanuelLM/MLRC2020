@@ -2,7 +2,9 @@ Cloned repository for the 2020 Machine Learning Reproducibility Challenge. Pleas
 
 Additional credits : 
 **EfficientNet implementation
+
 *Author: lukemelas (github username)
+
 *Github repo: https://github.com/lukemelas/EfficientNet-PyTorch
 
 ![#Synbols](https://github.com/ElementAI/synbols/raw/master/title.png)
