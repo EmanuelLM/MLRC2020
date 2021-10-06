@@ -46,3 +46,22 @@ for (i, task) in zip(files, task_genre):
     for j in temp_data:
         globals()['train_loss_' + 'conv4GAP_' + str(task)].append(j['train_loss'])
         globals()['valid_loss_' + 'conv4GAP_' + str(task)].append(j['val_loss'])
+
+
+
+
+# plot for train_loss and valid_loss
+plt.figure(figsize=(10,7))
+
+for task, color in zip(task_genre, colors):
+    plt.plot(globals()['train_loss_' + 'conv4GAP_' + str(task)], label= 'train' + '-' + str(task),
+             linestyle='-.', color= color)
+    plt.plot(globals()['valid_loss_' + 'conv4GAP_' + str(task)], label='train' + '-' + str(task),
+             linestyle='solid', color=color, marker='x', markersize=5)
+
+plt.title('Cross-entropy loss for conv-4-GAP in different tasks')
+plt.ylabel('train and valid loss')
+
+plt.xlabel('Number of epoch')
+plt.legend(loc="upper right")
+plt.show()
